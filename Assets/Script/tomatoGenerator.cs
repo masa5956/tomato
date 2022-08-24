@@ -15,7 +15,7 @@ public class tomatoGenerator : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             GameObject tomato =
                 Instantiate(tomatoPrefab) as GameObject;
